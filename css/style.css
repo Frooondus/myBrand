@@ -1,0 +1,280 @@
+p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.25rem;
+  color: #EEEEEE;
+}
+
+em {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: black;
+}
+
+/*Navbar Section*/
+#navbar {
+  font-family: 'Architects Daughter', cursive;
+  background-color: #222831;
+  padding: 2% 4% 2% 4%;
+}
+
+.btn-down {
+  margin-left: 10px;
+}
+
+.fab-icon {
+  margin-right: 5px;
+}
+
+.nav-img {
+  width: 8%;
+}
+
+/*Title Section*/
+#title {
+  background-color: #222831;
+  padding: 2.5%;
+}
+
+.title-quote {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3.5rem;
+  color: #EEEEEE;
+}
+
+.title-img {
+  width: 75%;
+}
+
+/*Features Section*/
+#features {
+  background-color: #393E46;
+  color: white;
+  text-align: center;
+  padding: 4%;
+}
+
+.feature-title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+.fa-icon {
+  color: #71C9CE;
+  margin: 1rem;
+}
+
+.fa-icon:hover {
+  color: #00ADB5;
+}
+
+.feature-col {
+  padding: 4%;
+}
+
+/*Testimonial Section*/
+#testimonials {
+  background-color: #00ADB5;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-family: 'Architects Daughter', cursive;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 25%;
+}
+
+.carousel-item {
+  padding: 4% 8%;
+}
+
+/*Press Section*/
+#press {
+  background-color: #00ADB5;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+}
+
+/*Location Section*/
+#location {
+  text-align: center;
+  background-color: #393E46;
+  padding: 4%;
+  text-align: center;
+}
+
+.loc-question {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5rem;
+  color: white;
+}
+
+/*Pricing Section*/
+#pricing {
+  background-color: #222831;
+  padding: 4%;
+  text-align: center;
+}
+
+.price-heading {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.price-text {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.card-header {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.card-body {
+  font-family: 'Architects Daughter', cursive;
+  color: black;
+}
+
+.card-info {
+  font-family: 'Architects Daughter', cursive;
+  color: black;
+}
+
+/*About Section*/
+#about {
+  background-color: #00ADB5;
+  padding: 4%;
+  text-align: right;
+}
+
+.about-info {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+.about-img {
+  width: 75%;
+}
+
+.btn-download {
+  margin-top: 2%;
+}
+
+/*Footer Section*/
+#footer {
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 2%;
+}
+
+.foot-icon {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.foot-msg {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1rem;
+  color: black;
+}
+
+/*Media Section*/
+@media (max-width: 1024px){
+  p{
+    font-size: 1rem;
+  }
+  em{
+    font-size: 1rem;
+  }
+  .title-quote{
+    font-size: 2rem;
+  }
+  .feature-title{
+    font-size: 1rem;
+  }
+  .testimonial-text{
+    font-size: 2rem;
+  }
+  .carousel-item{
+    padding: 4% 15%;
+  }
+  .loc-question{
+    font-size: 3rem;
+  }
+  .about-info{
+    font-size: 1.5rem;
+  }
+  .about-img{
+    margin-top: 50px;
+  }
+  .foot-icon {
+    font-size: 1rem;
+  }
+  .foot-msg {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px){
+  #title{
+    text-align: center;
+  }
+  .nav-img{
+    width: 20%;
+  }
+  .btn-down{
+    margin: 0px;
+  }
+  .title-img{
+    width: 40%;
+  }
+  #about{
+    text-align: center;
+  }
+  .about-img{
+    width: 40%
+  }
+}
+
+@media (max-width: 425px){
+  h3{
+    font-size: 1rem;
+  }
+  #title{
+    padding: 10%;
+  }
+  .nav-img{
+    width: 20%;
+  }
+  .title-quote{
+    font-size: 1rem;
+  }
+  .testimonial-text{
+    font-size: 1rem;
+  }
+  .loc-question{
+    font-size: 1rem;
+  }
+  .price-heading{
+    font-size: 1rem;
+  }
+  .about-info{
+    font-size: 1rem;
+  }
+  .price-text{
+    font-size: 1rem;
+  }
+  .card-info{
+    font-size: 1rem;
+  }
+  .fa-icon{
+    font-size: 2rem;
+  }
+}
